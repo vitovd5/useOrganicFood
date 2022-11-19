@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+  --gray: #e8e8e8;
+  --green: #489545;
+  --white: #fff;
+}
+
+body {
+  background: var(--white);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.perfil {
+  box-sizing: border-box;
+  position: absolute;
+  margin-bottom: 220px;
+}
+
+.perfil img {
+  width: 165px;
+}
+
+h1,h3 {
+  position: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+h1 {
+  position: center;
+  width: 286px;
+  height: 38px;
+
+  /* UI - 30 Semi */
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+
+}
+
+h3 {
+  margin-top: 35px;
+}
+
+.distancia-horta p {
+  margin-top: 15px;
+}
+
+.endereco {
+  position: center;
+  width: 350px;
+  height: 40px;
+
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  font-size: 14px;
+}
+
+.endereco .espaco,.espaco1{
+  margin-left: 30px;
+}
+
+.endereco img {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 3px;
+  width: 11px;
+  height: 13px;
+}
+
+header {
+  background: var(--green);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+  width: 90px;
+  margin-top: -50px;
+}
+
+header .config img{
+  width: 30px;
+  position: absolute;
+  /* left: 20px; */
+  margin-top: -75px;
+}
+
+header .logout img{
+  width: 30px;
+  position: absolute;
+  /* right: 20px; */
+  margin-top: -75px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px 20px 20px;
+  justify-content: center;
+}
+

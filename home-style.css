@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+:root {
+  --gray: #e8e8e8;
+  --green: #489545;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--white);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background: var(--green);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 90px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px 20px 20px;
+  justify-content: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 16px;
+}
+
+.cards h2 {
+  margin-left: 4px;
+}
+
+.cards a {
+  text-decoration: none;
+}
+
+.cards button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  width: 163px;
+  height: 128px;
+  line-height: 30px;
+  padding-right: 10px;
+}
+
+.cards button:active {
+  transform: scale(0.99);
+}
+
+button.card-verde {
+  background: var(--green);
+  color: var(--gray);
+}
+
+button.card-cinza {
+  background: var(--gray);
+  color: var(--green);
+}
+
+.cards button img {
+  width: 58px;
+}
+
+.card-doacao {
+  background: var(--gray);
+  color: var(--green);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  margin-top: 50px;
+  width: 343px;
+  height: 161px;
+}
+
+.card-doacao:active {
+  transform: scale(0.99);
+}
+
+.card-doacao img {
+  margin-top: 10px;
+  width: 243px;
+  height: 90px;
+}

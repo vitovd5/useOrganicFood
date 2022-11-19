@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+:root {
+    --gray: #f6f6f6;
+    --green: #489545;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background: var(--white);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+header {
+    background: var(--green);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+header img {
+    margin-bottom: 10px;
+}
+
+.cep {
+    background: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    position: absolute;
+    top: 125px;
+    padding-right: 10px;
+}
+
+input#cep {
+    outline: 0;
+    width: 330px;
+    height: 10px;
+    margin: 10px;
+    border: none;
+    background: var(--gray);
+    font-size: 16px;
+    padding: 10px;
+}
+
+.opcoes-da-horta {
+    margin-top: 10px;
+    padding-bottom: 8px;
+    width: 375px;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+.foto-da-horta {
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.opcao {
+    display: flex;
+}
